@@ -1,0 +1,193 @@
+ID IPEDS Race,IPEDS Race,ID Year,Year,Enrollment,University,ID University,Slug University,share
+"asian","Asian",2019,"2019",564704,"Doctoral Universities","DOC","doctoral-universities",0.08760378733606014
+"black","Black or African American",2019,"2019",636464,"Doctoral Universities","DOC","doctoral-universities",0.09873607571941793
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2019,"2019",10774,"Doctoral Universities","DOC","doctoral-universities",0.0016713945797421517
+"hispanic","Hispanic or Latino",2019,"2019",958257,"Doctoral Universities","DOC","doctoral-universities",0.14865653942825088
+"multiracial","Two or More Races",2019,"2019",253784,"Doctoral Universities","DOC","doctoral-universities",0.03937007629713033
+"native","American Indian or Alaska Native",2019,"2019",25438,"Doctoral Universities","DOC","doctoral-universities",0.003946253510254395
+"nonresident","Non-resident Alien",2019,"2019",620703,"Doctoral Universities","DOC","doctoral-universities",0.09629103673934404
+"white","White",2019,"2019",3375990,"Doctoral Universities","DOC","doctoral-universities",0.5237248363898002
+"asian","Asian",2019,"2019",403650,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.11509824340091998
+"black","Black or African American",2019,"2019",234166,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.06677095321248565
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2019,"2019",4558,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0012996848592131632
+"hispanic","Hispanic or Latino",2019,"2019",470812,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.13424906273274853
+"multiracial","Two or More Races",2019,"2019",144667,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.041250879668229636
+"native","American Indian or Alaska Native",2019,"2019",10242,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.002920441493650991
+"nonresident","Non-resident Alien",2019,"2019",460367,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.1312707370735819
+"white","White",2019,"2019",1778542,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.5071399975591702
+"asian","Asian",2019,"2019",10157,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.22045928112519533
+"black","Black or African American",2019,"2019",1394,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.0302569890606008
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2019,"2019",159,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.0034511199861086994
+"hispanic","Hispanic or Latino",2019,"2019",3799,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.08245789199513805
+"multiracial","Two or More Races",2019,"2019",3055,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.06630925507900677
+"native","American Indian or Alaska Native",2019,"2019",197,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.004275915957631533
+"nonresident","Non-resident Alien",2019,"2019",8118,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.1762024657058517
+"white","White",2019,"2019",19193,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.4165870810904671
+"asian","Asian",2018,"2018",542384,"Doctoral Universities","DOC","doctoral-universities",0.08516594423695799
+"black","Black or African American",2018,"2018",632822,"Doctoral Universities","DOC","doctoral-universities",0.09936665381707467
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2018,"2018",10841,"Doctoral Universities","DOC","doctoral-universities",0.0017022699811809743
+"hispanic","Hispanic or Latino",2018,"2018",918610,"Doctoral Universities","DOC","doctoral-universities",0.14424151161448712
+"multiracial","Two or More Races",2018,"2018",242311,"Doctoral Universities","DOC","doctoral-universities",0.03804803444423421
+"native","American Indian or Alaska Native",2018,"2018",25808,"Doctoral Universities","DOC","doctoral-universities",0.0040524106331813105
+"nonresident","Non-resident Alien",2018,"2018",621311,"Doctoral Universities","DOC","doctoral-universities",0.09755917943709366
+"white","White",2018,"2018",3374468,"Doctoral Universities","DOC","doctoral-universities",0.52986399583579
+"asian","Asian",2018,"2018",385644,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.11247055859059205
+"black","Black or African American",2018,"2018",228868,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.06674786021177984
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2018,"2018",4773,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0013920143348603786
+"hispanic","Hispanic or Latino",2018,"2018",449853,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.13119669486275842
+"multiracial","Two or More Races",2018,"2018",136623,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.03984520730601917
+"native","American Indian or Alaska Native",2018,"2018",10443,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0030456328721866614
+"nonresident","Non-resident Alien",2018,"2018",450825,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.13148017232630005
+"white","White",2018,"2018",1761815,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.5138218594955034
+"asian","Asian",2018,"2018",9921,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.2156504727746984
+"black","Black or African American",2018,"2018",1388,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.030170633626779696
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2018,"2018",148,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.003217041625910227
+"hispanic","Hispanic or Latino",2018,"2018",3572,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.07764373437669818
+"multiracial","Two or More Races",2018,"2018",2989,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.064971198782741
+"native","American Indian or Alaska Native",2018,"2018",214,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.004651668296924248
+"nonresident","Non-resident Alien",2018,"2018",7831,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.17022062819258776
+"white","White",2018,"2018",19942,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.43347462232366046
+"asian","Asian",2017,"2017",521339,"Doctoral Universities","DOC","doctoral-universities",0.082574765119848
+"black","Black or African American",2017,"2017",630879,"Doctoral Universities","DOC","doctoral-universities",0.09992478069748204
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2017,"2017",11043,"Doctoral Universities","DOC","doctoral-universities",0.0017490982474330165
+"hispanic","Hispanic or Latino",2017,"2017",880640,"Doctoral Universities","DOC","doctoral-universities",0.139484368434249
+"multiracial","Two or More Races",2017,"2017",229826,"Doctoral Universities","DOC","doctoral-universities",0.036402087640545186
+"native","American Indian or Alaska Native",2017,"2017",26351,"Doctoral Universities","DOC","doctoral-universities",0.004173728870606485
+"nonresident","Non-resident Alien",2017,"2017",621486,"Doctoral Universities","DOC","doctoral-universities",0.09843702557313735
+"white","White",2017,"2017",3391975,"Doctoral Universities","DOC","doctoral-universities",0.5372541454166989
+"asian","Asian",2017,"2017",369351,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.10923753383810884
+"black","Black or African American",2017,"2017",223971,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.06624062122819507
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2017,"2017",4975,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0014713828603268747
+"hispanic","Hispanic or Latino",2017,"2017",428866,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.1268394134225016
+"multiracial","Two or More Races",2017,"2017",129336,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.03825181379361541
+"native","American Indian or Alaska Native",2017,"2017",10650,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.003149794464820345
+"nonresident","Non-resident Alien",2017,"2017",446348,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.13200980843038793
+"white","White",2017,"2017",1767676,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.5227996319620439
+"asian","Asian",2017,"2017",9370,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.20788959886403977
+"black","Black or African American",2017,"2017",1333,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.029574902378416756
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2017,"2017",161,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.0035720624778132763
+"hispanic","Hispanic or Latino",2017,"2017",3395,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.0753239261625843
+"multiracial","Two or More Races",2017,"2017",2892,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.0641640042598509
+"native","American Indian or Alaska Native",2017,"2017",220,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.004881079162229322
+"nonresident","Non-resident Alien",2017,"2017",7356,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.16320553780617678
+"white","White",2017,"2017",20345,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.4513888888888889
+"asian","Asian",2016,"2016",505647,"Doctoral Universities","DOC","doctoral-universities",0.08110067899466318
+"black","Black or African American",2016,"2016",618409,"Doctoral Universities","DOC","doctoral-universities",0.09918656651065005
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2016,"2016",11186,"Doctoral Universities","DOC","doctoral-universities",0.0017941215813290742
+"hispanic","Hispanic or Latino",2016,"2016",837090,"Doctoral Universities","DOC","doctoral-universities",0.13426079335908767
+"multiracial","Two or More Races",2016,"2016",215535,"Doctoral Universities","DOC","doctoral-universities",0.03456964017805847
+"native","American Indian or Alaska Native",2016,"2016",26593,"Doctoral Universities","DOC","doctoral-universities",0.004265248990906854
+"nonresident","Non-resident Alien",2016,"2016",614478,"Doctoral Universities","DOC","doctoral-universities",0.09855607375754755
+"white","White",2016,"2016",3405868,"Doctoral Universities","DOC","doctoral-universities",0.5462668766277572
+"asian","Asian",2016,"2016",357790,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.10744679988480228
+"black","Black or African American",2016,"2016",218505,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.06561855560196965
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2016,"2016",5095,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0015300635719641901
+"hispanic","Hispanic or Latino",2016,"2016",404650,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.12151918045050236
+"multiracial","Two or More Races",2016,"2016",122704,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.036848855845788814
+"native","American Indian or Alaska Native",2016,"2016",10853,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.003259230607758068
+"nonresident","Non-resident Alien",2016,"2016",433496,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.1301818328149536
+"white","White",2016,"2016",1776834,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.5335954812222611
+"asian","Asian",2016,"2016",9256,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.2082855149755845
+"black","Black or African American",2016,"2016",1168,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.026283219694412566
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2016,"2016",167,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.0037579603501428924
+"hispanic","Hispanic or Latino",2016,"2016",3188,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.07173878800153019
+"multiracial","Two or More Races",2016,"2016",2705,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.060869956569679785
+"native","American Indian or Alaska Native",2016,"2016",219,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.004928103692702356
+"nonresident","Non-resident Alien",2016,"2016",7042,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.15846441189045657
+"white","White",2016,"2016",20694,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.4656720448254911
+"asian","Asian",2015,"2015",487818,"Doctoral Universities","DOC","doctoral-universities",0.07876311277515415
+"black","Black or African American",2015,"2015",627066,"Doctoral Universities","DOC","doctoral-universities",0.10124610013460923
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2015,"2015",11816,"Doctoral Universities","DOC","doctoral-universities",0.0019078118079923687
+"hispanic","Hispanic or Latino",2015,"2015",793432,"Doctoral Universities","DOC","doctoral-universities",0.12810756080221744
+"multiracial","Two or More Races",2015,"2015",214508,"Doctoral Universities","DOC","doctoral-universities",0.0346344698128662
+"native","American Indian or Alaska Native",2015,"2015",26884,"Doctoral Universities","DOC","doctoral-universities",0.004340691659281215
+"nonresident","Non-resident Alien",2015,"2015",599695,"Doctoral Universities","DOC","doctoral-universities",0.09682677743686388
+"white","White",2015,"2015",3432264,"Doctoral Universities","DOC","doctoral-universities",0.5541734755710155
+"asian","Asian",2015,"2015",344047,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.10558557308868652
+"black","Black or African American",2015,"2015",211581,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0649327014613625
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2015,"2015",5363,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0016458664905510752
+"hispanic","Hispanic or Latino",2015,"2015",375821,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.11533678731034787
+"multiracial","Two or More Races",2015,"2015",115865,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.03555814300348692
+"native","American Indian or Alaska Native",2015,"2015",10927,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.003353418449049338
+"nonresident","Non-resident Alien",2015,"2015",416934,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.12795407409498827
+"white","White",2015,"2015",1777928,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.5456334361015275
+"asian","Asian",2015,"2015",8936,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.20273612087937018
+"black","Black or African American",2015,"2015",1102,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.02500170156771105
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2015,"2015",163,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.00369807382535109
+"hispanic","Hispanic or Latino",2015,"2015",3059,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.06940127504140481
+"multiracial","Two or More Races",2015,"2015",2566,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.05821630328742882
+"native","American Indian or Alaska Native",2015,"2015",220,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.0049912652857499375
+"nonresident","Non-resident Alien",2015,"2015",6985,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.15847267282256053
+"white","White",2015,"2015",21046,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.4774825872904236
+"asian","Asian",2014,"2014",472695,"Doctoral Universities","DOC","doctoral-universities",0.0774566741092716
+"black","Black or African American",2014,"2014",620738,"Doctoral Universities","DOC","doctoral-universities",0.10171527300530159
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2014,"2014",12089,"Doctoral Universities","DOC","doctoral-universities",0.0019809258259702012
+"hispanic","Hispanic or Latino",2014,"2014",746558,"Doctoral Universities","DOC","doctoral-universities",0.12233237015341729
+"multiracial","Two or More Races",2014,"2014",208640,"Doctoral Universities","DOC","doctoral-universities",0.03418813502609172
+"native","American Indian or Alaska Native",2014,"2014",27773,"Doctoral Universities","DOC","doctoral-universities",0.004550934979292779
+"nonresident","Non-resident Alien",2014,"2014",565448,"Doctoral Universities","DOC","doctoral-universities",0.09265535167864988
+"white","White",2014,"2014",3448761,"Doctoral Universities","DOC","doctoral-universities",0.5651203352220049
+"asian","Asian",2014,"2014",334777,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.10420889030140165
+"black","Black or African American",2014,"2014",208324,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0648467871542824
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2014,"2014",5563,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.001731642426889235
+"hispanic","Hispanic or Latino",2014,"2014",357517,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.11128736392848439
+"multiracial","Two or More Races",2014,"2014",109545,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.03409900586977912
+"native","American Indian or Alaska Native",2014,"2014",11141,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.003467954031632746
+"nonresident","Non-resident Alien",2014,"2014",390820,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.12165387260054841
+"white","White",2014,"2014",1794870,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.558704483686982
+"asian","Asian",2014,"2014",8702,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.20141653550597166
+"black","Black or African American",2014,"2014",1093,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.02529858346449403
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2014,"2014",160,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.003703360799925933
+"hispanic","Hispanic or Latino",2014,"2014",2917,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.06751689658364966
+"multiracial","Two or More Races",2014,"2014",2407,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.055712434033885753
+"native","American Indian or Alaska Native",2014,"2014",233,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.00539301916489214
+"nonresident","Non-resident Alien",2014,"2014",6677,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.1545458753819091
+"white","White",2014,"2014",21015,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.48641329506527176
+"asian","Asian",2013,"2013",455453,"Doctoral Universities","DOC","doctoral-universities",0.0776642525455359
+"black","Black or African American",2013,"2013",584011,"Doctoral Universities","DOC","doctoral-universities",0.09958607758291407
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2013,"2013",11397,"Doctoral Universities","DOC","doctoral-universities",0.0019434266241774073
+"hispanic","Hispanic or Latino",2013,"2013",694365,"Doctoral Universities","DOC","doctoral-universities",0.11840374027348823
+"multiracial","Two or More Races",2013,"2013",171326,"Doctoral Universities","DOC","doctoral-universities",0.029214662614180792
+"native","American Indian or Alaska Native",2013,"2013",28067,"Doctoral Universities","DOC","doctoral-universities",0.004786009920223505
+"nonresident","Non-resident Alien",2013,"2013",512744,"Doctoral Universities","DOC","doctoral-universities",0.08743356505985965
+"white","White",2013,"2013",3407021,"Doctoral Universities","DOC","doctoral-universities",0.5809682653796204
+"asian","Asian",2013,"2013",322811,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.10265259513326257
+"black","Black or African American",2013,"2013",205128,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.06522987610241252
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2013,"2013",5669,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0018027191198889303
+"hispanic","Hispanic or Latino",2013,"2013",336482,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.1069999179570413
+"multiracial","Two or More Races",2013,"2013",99058,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.031500044201438995
+"native","American Indian or Alaska Native",2013,"2013",11645,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.003703063000724395
+"nonresident","Non-resident Alien",2013,"2013",358800,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.11409695188148672
+"white","White",2013,"2013",1805101,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.5740148326037446
+"asian","Asian",2013,"2013",8706,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.20621047395722306
+"black","Black or African American",2013,"2013",1093,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.025888817830834458
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2013,"2013",168,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.003979251048106302
+"hispanic","Hispanic or Latino",2013,"2013",2788,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.06603661858404984
+"multiracial","Two or More Races",2013,"2013",1933,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.04578507307136597
+"native","American Indian or Alaska Native",2013,"2013",283,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.006703143134607641
+"nonresident","Non-resident Alien",2013,"2013",6252,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.14808498543309884
+"white","White",2013,"2013",20996,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.4973116369407139
+"asian","Asian",2012,"2012",446721,"Doctoral Universities","DOC","doctoral-universities",0.07692046759660237
+"black","Black or African American",2012,"2012",585773,"Doctoral Universities","DOC","doctoral-universities",0.1008637003083906
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2012,"2012",11362,"Doctoral Universities","DOC","doctoral-universities",0.0019564120621878
+"hispanic","Hispanic or Latino",2012,"2012",654515,"Doctoral Universities","DOC","doctoral-universities",0.11270032044383452
+"multiracial","Two or More Races",2012,"2012",149937,"Doctoral Universities","DOC","doctoral-universities",0.025817510593931715
+"native","American Indian or Alaska Native",2012,"2012",30448,"Doctoral Universities","DOC","doctoral-universities",0.005242812398300838
+"nonresident","Non-resident Alien",2012,"2012",473723,"Doctoral Universities","DOC","doctoral-universities",0.0815699165055264
+"white","White",2012,"2012",3455091,"Doctoral Universities","DOC","doctoral-universities",0.5949288600912258
+"asian","Asian",2012,"2012",318541,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.10191146585173583
+"black","Black or African American",2012,"2012",206393,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.06603172957809925
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2012,"2012",5807,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0018578452450423333
+"hispanic","Hispanic or Latino",2012,"2012",321126,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.10273849012561811
+"multiracial","Two or More Races",2012,"2012",87157,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.0278843151407189
+"native","American Indian or Alaska Native",2012,"2012",13404,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.004288368807395805
+"nonresident","Non-resident Alien",2012,"2012",333191,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.10659846995710351
+"white","White",2012,"2012",1840045,"Doctoral Universities: Highest Research Activity","15","doctoral-universities-highest-research-activity",0.5886893152942863
+"asian","Asian",2012,"2012",8810,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.21329136908364604
+"black","Black or African American",2012,"2012",1108,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.026824839607795668
+"hawaiian","Native Hawaiian or Other Pacific Islanders",2012,"2012",199,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.004817818666021063
+"hispanic","Hispanic or Latino",2012,"2012",2669,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.0646168744704031
+"multiracial","Two or More Races",2012,"2012",1348,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.03263527417988137
+"native","American Indian or Alaska Native",2012,"2012",363,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.008788282290279626
+"nonresident","Non-resident Alien",2012,"2012",5546,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.1342694589032805
+"white","White",2012,"2012",21262,"University of Washington-Seattle Campus","236948","university-of-washington-seattle-campus",0.5147560827986927
