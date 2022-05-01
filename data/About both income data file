@@ -1,0 +1,39 @@
+First Dataset: CA Educational Attainment & Personal Income
+
+Where did you download the data (e.g., a web URL)?
+https://catalog.data.gov/dataset/ca-educational-attainment-personal-income
+
+How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
+Published by the California Department of Finance, this is about people from the 
+state of CA and their income compared to their gender and educational attainment
+
+How many observations (rows) are in your data?
+1061 rows
+
+How many features (columns) are in the data?
+six columns (Year, Age,	Gender, Educational Attainment,	Personal Income,	Population Count)
+
+What questions (from above) can be answered using the data in this dataset?
+Is their any correlation between educational attainment and income level?
+Is their any correlation between gender and income level?
+Is their any correlation between age and income level?
+
+
+
+Second Dataset: U.S. Incomes by Occupation and Gender
+
+Where did you download the data (e.g., a web URL)?
+https://www.kaggle.com/datasets/jonavery/incomes-by-career-and-gender
+
+How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
+Retrieved from the Bureau of Labor Statistics to see if their is gender gap in regards to income
+
+How many observations (rows) are in your data?
+559 rows 
+
+How many features (columns) are in the data?
+7 rows 
+
+What questions (from above) can be answered using the data in this dataset?
+Is their any correlation between gender and and occupation?
+What is the comparison between males and females income within the same occupations?
