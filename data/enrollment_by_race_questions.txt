@@ -1,5 +1,5 @@
 * Where did you download the data (e.g., a web URL)?
-[link] https://datausa.io/profile/university/university-of-washington-seattle-campus#:~:text=3%2C799-,The%20enrolled%20student%20population%20at%20University%20of%20Washington%2DSeattle%20Campus,Hawaiian%20or%20Other%20Pacific%20Islanders.
+[datausa link] (https://datausa.io/profile/university/university-of-washington-seattle-campus#:~:text=3%2C799-,The%20enrolled%20student%20population%20at%20University%20of%20Washington%2DSeattle%20Campus,Hawaiian%20or%20Other%20Pacific%20Islanders.)
 * How was the data collected or generated?
 The data is from the Integrated Postsecondary Education Data System Fall Enrollment.
 They gather data from all colleges and universities that participate in the
