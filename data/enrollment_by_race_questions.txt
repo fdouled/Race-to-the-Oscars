@@ -1,12 +1,12 @@
-- Where did you download the data (e.g., a web URL)?
-https://datausa.io/profile/university/university-of-washington-seattle-campus#:~:text=3%2C799-,The%20enrolled%20student%20population%20at%20University%20of%20Washington%2DSeattle%20Campus,Hawaiian%20or%20Other%20Pacific%20Islanders.
-- How was the data collected or generated?
+* Where did you download the data (e.g., a web URL)?
+[link] https://datausa.io/profile/university/university-of-washington-seattle-campus#:~:text=3%2C799-,The%20enrolled%20student%20population%20at%20University%20of%20Washington%2DSeattle%20Campus,Hawaiian%20or%20Other%20Pacific%20Islanders.
+* How was the data collected or generated?
 The data is from the INtegrated Postsecondary Education Data System Fall Enrollment.
 They gather data from all colleges and universities that participate in the
 student financial aid programs.
-- How many observations (rows) are in your data?
+* How many observations (rows) are in your data?
 There are 193 rows.
-- How many features (columns) are in the data?
+* How many features (columns) are in the data?
 There are 9 columns.
-- What questions can be answered using the data in this dataset?
+* What questions can be answered using the data in this dataset?
 We can see how the diversity of UW has changed over time, we can find the percentages of enrolled students fall into different racial categories, and we can find trends for what groups are increasing or decreasing.
