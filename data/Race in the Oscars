@@ -1,0 +1,15 @@
+Where did you download the data (e.g., a web URL)?
+We downloaded the data from Kaggle. Web URL: https://www.kaggle.com/datasets/dharmikdonga/academy-awards-dataset-oscars
+
+How was the data collected or generated? 
+The data was collected independently, by various people who conducted profound research on the topic.
+
+How many observations (rows) are in your data?
+There are 10,396 rows.
+
+How many features (columns) are in the data?
+There are 10 columns.
+
+What questions (from above) can be answered using the data in this dataset?
+1) Do the Academy Awards reflect the racial diversity of films or are the #OscarsSoWhite?
+2) How might certain historic, renowned ceremonies such as the Oscars discriminate against certain races?
