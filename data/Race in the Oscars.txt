@@ -1,8 +1,10 @@
 Where did you download the data (e.g., a web URL)?
-We downloaded the data from Kaggle. Web URL: https://www.kaggle.com/datasets/dharmikdonga/academy-awards-dataset-oscars
+We downloaded the data from Kaggle. 
+[Kaggle] [https://www.kaggle.com/datasets/dharmikdonga/academy-awards-dataset-oscars]
 
 How was the data collected or generated? 
-The data was collected independently, by various people who conducted profound research on the topic.
+The data was collected independently, by various people who conducted profound research on the Oscars.
+The source authors are Raphael Fontes and Dharmik Donga.
 
 How many observations (rows) are in your data?
 There are 10,396 rows.
