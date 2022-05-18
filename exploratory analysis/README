@@ -1,7 +1,7 @@
-This is where all 6 files for the Exploratory Analysis Deliverable are to be placed:
+This is where all 6 files for the Exploratory Analysis Deliverable have been placed:
 
 An index.Rmd file that renders your report
-A file that calculates summary information to be included in your report
+A file that calculates summary information to be included in your report (named "summary info")
 A file that creates a table of summary information to be included in your report
 A file that creates your first chart
 A file that creates your second chart
