@@ -13,5 +13,6 @@ race_and_winners <- group_by(oscars, Race) %>%
 race_and_winners_graph <- ggplot(race_and_winners, aes(x=Race, y=Wins,fill=Race )) + 
   geom_bar(stat = "identity") + 
   ggtitle("Winners by Race") +
-  scale_fill_brewer(palette = "Set2")
+  scale_fill_brewer(palette = "Set2") +
+  theme(legend.position="none")
 print(race_and_winners_graph)
