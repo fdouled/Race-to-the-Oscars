@@ -1,0 +1,183 @@
+---
+title: 'Race in the Oscars: Exploratory Analysis'
+author: "Clarabelle McKeirnan"
+date: "`r Sys.Date()`"
+output: html_document
+runtime: shiny
+---
+
+## Introduction
+
+The Oscars Ceremonies have been repeatedly accused of racial bias in recent decades. The hashtag #OscarsSoWhite has been used countless times to address the issue of racial diversity, and whether or not the Oscars discriminates against People of Color. To explore this issue, we decided to select a dataset called "Race in the Oscars", which lists the winners and nominees for 92 different Oscar categories from 1928 to 2020. The dataset also lists the name, gender, and race of all the nominees and winners, with their respective film titles. In analyzing this dataset, we sought to find patterns, trends, and answers to the question  "Do the Oscars Ceremonies reflect racial diversity, or are the Oscars truly #SoWhite?
+
+## Summary of Dataset
+
+Because we wanted to analyze the racial diversity of the Oscars, we chose to focus on select rows and columns from the dataset. The size of the dataset originally contained over 10.4K rows and 9 columns. We narrowed this dataset down to focus solely on the years 1980 through 2020 and the racial diversity of the winners, by year and by category.
+
+
+Our modified dataset contains 3,851 rows and 4 columns, and lists 92 different categories, such as Production Design, Cinematography, and Directing. There are four races listed: White, Asian, Hispanic, and Black. The dataset also lists whether or not the person who was nominated won, as well as the year of the ceremony. Because we wanted to focus on the racial diversity of the winners by year and category, we only included these respective columns.
+
+
+```{r table_script,echo=FALSE,message=FALSE,tidy=TRUE}
+library(dplyr)
+library(knitr)
+library(rmarkdown)
+oscars<-read.csv(url("https://raw.githubusercontent.com/info201b-2022-spring/final-projects-swizzlejuice/main/data/oscars.csv"))
+year_table <- oscars[-c(1:6544,10396), ]
+table_script = year_table %>% group_by(year_ceremony)  %>%
+  select(Category,
+            Race,
+            winner)
+paged_table(table_script)
+```
+
+
+## Chart 1: Winners by Race
+
+The purpose of this chart is to show the races of all the Oscar Winners since 1980. We wanted to determine whether or not there was significant lack of racial diversity of those who won. The chart shows the four races analyzed in the dataset; White, Black, Asian, and Hispanic, and their respective numbers of winners. As made clear from the chart, there is a significant disparity between the number of White winners vs non-White winners. 
+
+
+```{r, echo=FALSE}
+library(dplyr)
+library(ggplot2)
+race_and_winners <- group_by(oscars, Race) %>%
+  select( Race, winner) %>%
+  summarise(Wins = sum( winner, na.rm = TRUE))
+race_and_winners_graph <- ggplot(race_and_winners, aes(x=Race, y=Wins,fill=Race )) + 
+  geom_bar(stat = "identity") + 
+  ggtitle("Winners by Race") +
+  scale_fill_brewer(palette = "Set2")
+print(race_and_winners_graph)
+```
+
+## Chart 2: Race of Oscar Winners by the Years
+
+The purpose of this chart is to show the racial distribution of Oscar Winners from 1980-2020. The chart tracks the number of White winners over the years as well as the number of non-White winners. Around the year 2015, the number of White winners seems to begin a downward trajectory, and the number of non-White winners seems to take an upward trajectory. A possible reason why this might have occurred is because of calls for racial diversity and the increased acceptance of racial justice reform nationwide. It would be interesting to see how this chart might look 10 years from now, and whether or not those observed trajectories continue to occur. Nevertheless, this chart follows the pattern of the other two charts we created- a pattern that illustrates the lack of racial diversity in the Oscars.
+
+
+```{r,echo=FALSE,message=FALSE}
+library(ggplot2)
+library(dplyr)
+library(stringr)
+
+oscars_df <- read.csv(url("https://raw.githubusercontent.com/info201b-2022-spring/final-projects-swizzlejuice/main/data/oscars.csv"))
+oscars_df <- oscars_df %>%
+  filter(year_ceremony >= 1980) %>%
+  filter(winner == TRUE) %>% 
+  select(year_ceremony,Race,winner)
+oscar_white_df <- oscars_df %>% 
+  mutate(white_counter = str_count(oscars_df$Race, "White")) %>%
+  group_by(year_ceremony) %>%
+  summarise(white_per_year = sum(white_counter))
+
+oscar_other_df <- oscars_df %>%
+  mutate(other_counter = !str_detect(oscars_df$Race,"White")) %>%
+  group_by(year_ceremony) %>%
+  summarise(other_per_year = sum(other_counter, na.rm = FALSE))
+oscar_race_df <- full_join(oscar_white_df,oscar_other_df)  
+ggplot(data = oscar_race_df, mapping = aes(x = year_ceremony)) +
+  geom_line(mapping = aes(y= white_per_year,color = "White")) +
+  geom_point(mapping = aes(y= white_per_year,color = "White")) +
+  geom_line(mapping = aes(y= other_per_year, color = "Other Race")) +
+  geom_point(mapping = aes(y= other_per_year, color = "Other Race")) +
+  labs(x= "Year of Ceremony", y ="Number of Winners", title = "Winners by Race Over the Years") +
+  theme(legend.position = "bottom")
+```
+
+
+## Chart 3: Racial Distribution of Nominees by Category
+
+The purpose of this interactive pie chart is to show the racial makeup of Oscar Nominees by Category. There are a total of 92 different categories. The user can select which category they would like to view the racial distribution for, such as Best Picture, Best Actor, and so on. The interactive pie chart will not only display a pie chart, but also the number of nominees for that category by Race. Since we used two charts to analyze the racial diversity of winners, we decided to include a chart that took a closer look at the nominees, in order to establish a more well-rounded analysis of both winners and nominees. We wanted to find patterns, trends, and observations in racial diversity for not only winners, but also nominees. As made evident by the charts, there is a significant lack of racial diversity in not only the number of winners, but also nominees. 
+
+
+```{r,echo=FALSE,message=FALSE}
+library(shiny)
+library(dplyr)
+library(plotly)
+
+the_oscars <- read.csv(url("https://raw.githubusercontent.com/info201b-2022-spring/final-projects-swizzlejuice/main/data/oscars.csv"))
+
+filtered_oscars <- the_oscars %>% filter(year_ceremony >= 1980)
+
+col <- c("year_ceremony", "Race", "Category")
+race_and_category <- filtered_oscars[,col]
+
+race_and_category <- race_and_category %>%
+  group_by(Category, Race) %>%
+  count(name = "amount_of_nominees")
+
+make_piechart <- function (cat) {
+  df <- race_and_category %>%
+    filter(Category == cat) 
+  pie_chart <- plot_ly(df, labels=~Race, values=~amount_of_nominees, type='pie')
+  return(pie_chart)
+}
+
+make_table <- function (cat) {
+  table_df <- race_and_category %>%
+    filter(Category == cat) %>%
+    select(c( Race, amount_of_nominees )) 
+  table_df = table_df[,-1]
+  return( do.call("rbind", list(table_df)))
+}
+summary_page <- tabPanel(
+  "Summary",
+  titlePanel("A look at Oscar nominees....."),
+  p("This visualization lets you explore the nominee racial distribution for different Oscar Categories")
+)
+
+analysis_page <- tabPanel(
+  "Analysis",
+  sidebarLayout(
+    sidebarPanel(
+      h3("Racial Distribution (percentage)"),
+      selectInput(
+        inputId = "category", 
+        label = "Select an Oscar Category",
+        choices = race_and_category$Category
+      )
+    ),
+    mainPanel(
+      plotlyOutput(outputId = 'pie'),
+      tableOutput(outputId = 'table')
+    )
+  )
+)
+
+ui <- navbarPage(
+  title = "Oscar ceremonies from 1980 onward",
+  summary_page,
+  analysis_page
+)
+server <- function(input, output, session) {
+  output$graph <- renderPlotly ({
+    labels = c('Asian','Black','Hispanic','White')
+    values = c(make_piechart$amount_of_nominees)
+    
+    pie_chart <- plot_ly(type='pie', labels =Race, values = amount_of_nominees, 
+                         textinfo='label+percent',
+                         insidetextorientation='radial')
+  })
+  
+  output$pie <- renderPlotly({
+    choice <- input$category
+    plt <- make_piechart(choice)
+    print(plt)
+  })
+  
+  output$table <- renderTable({
+    display <- input$category
+    the_table <- make_table(display)
+    print(the_table)
+  })
+  
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+
+## Concluding Thoughts
+
+Our initial issue we wanted to explore was whether or not the Oscars reflects racial diversity. By summarizing the dataset and creating charts to analyze the racial makeup of both Winners and Nominees by Race, it is evident that the Oscars Ceremonies do not have much racial diversity. 
+
