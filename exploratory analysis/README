@@ -3,6 +3,6 @@ This is where all 6 files for the Exploratory Analysis Deliverable have been pla
 An index.Rmd file that renders your report
 A file that calculates summary information to be included in your report (named "summary script")
 A file that creates a table of summary information to be included in your report (named "table script")
-A file that creates your first chart
+A file that creates your first chart (named "winners_by_race")
 A file that creates your second chart
 A file that creates your third chart
