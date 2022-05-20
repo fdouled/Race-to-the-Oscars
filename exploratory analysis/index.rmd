@@ -28,7 +28,7 @@ table_script = year_table %>% group_by(year_ceremony)  %>%
   select(Category,
             Race,
             winner)
-paged_table(table_script)
+table_script
 ```
 
 
