@@ -33,4 +33,3 @@ ggplot(data = oscar_race_df, mapping = aes(x = year_ceremony)) +
   geom_point(mapping = aes(y= other_per_year, color = "Other Race")) +
   labs(x= "Year of Ceremony", y ="Number of Winners", title = "Winners by Race Over the Years") +
   theme(legend.position = "bottom")
-
